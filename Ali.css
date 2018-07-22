@@ -2,7 +2,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  background-color: #c2c2d6;}
+  background-color: #333;}
 
 li {
     float: left;
@@ -20,3 +20,4 @@ li a {
 li a:hover {
     background-color: #111;
 }
+body{background-color: #c2c2d6;}
