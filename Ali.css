@@ -4,4 +4,4 @@ ul {position: -webkit-sticky; /* Safari */
     top: 0;}
 div.header {text-align: center;}
 p.image_top{background-image: url(Background.jpg); padding: 40px;}
-h2{font: Bradley Hand; font-style: italic; font-family: fantasy;}
+h2{font: Bradley Hand;font-family: fantasy; font-size: 30px;}
