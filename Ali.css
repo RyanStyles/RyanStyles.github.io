@@ -1,13 +1,31 @@
-//SIDEBAR
 
-main {background-color: white;}
-div.sidebar{height:100%;width:150px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto;
-width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0;}
 
-div.baritem{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;}
 
-div.baritem_button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;
-color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;}
-div.main{transition:margin-left .4s; margin-left: 200px;}
-div.teal{color:#fff!important;background-color:#009688!important}
-div.container{display:block;overflow-x:auto}
+
+
+//Sidebar
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position: fixed; //makes stick on scroll
+}
+li{
+  float:left;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+.active {
+  background-color: white;
+}
