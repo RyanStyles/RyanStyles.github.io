@@ -1,0 +1,9 @@
+//SIDEBAR
+main {background-color: white;}
+div.sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto;
+width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0; background-color: blue;}
+
+div.baritem{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;}
+
+div.baritem_button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;
+color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;}
