@@ -3,4 +3,4 @@ ul {position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;}
 div.header {text-align: center;}
-p.image_top{background-image: url(Background.jpg);}
+p.image_top{background-image: url(Background.jpg); padding: 40px;}
