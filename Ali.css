@@ -1,14 +1,13 @@
 body{background-color:#bfbfbf; margin-bottom: 90%;}
 
-//StickNav
 ul {position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;}
 
 
-//Text_Header
+
 div.header {text-align: center;}
 
-//Image_Header
+
 p.image_top{background-image: url(background_rain.jpg); background-repeat: no-repeat;padding: 90px;}
 h2{font: Bradley Hand;font-family: fantasy; font-size: 30px;}
