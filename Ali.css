@@ -10,5 +10,5 @@ ul {position: -webkit-sticky; /* Safari */
 div.header {text-align: center;}
 
 //Image_Header
-p.image_top{background-image: url(background_rain.jpg); background-repeat: no-repeat; background-size: contain;padding: 90px;}
+p.image_top{background-image: url(background_rain.jpg); background-repeat: no-repeat; background-size: 300px 100px;padding: 90px;}
 h2{font: Bradley Hand;font-family: fantasy; font-size: 30px;}
