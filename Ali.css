@@ -3,5 +3,5 @@ ul {position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;}
 div.header {text-align: center;}
-p.image_top{background-image: url(background_rain.jpg) ; background-repeat: no-repeat;padding: 60px;}
+p.image_top{background-image: url(background_rain.jpg) ; background-repeat: no-repeat;padding: 100px;}
 h2{font: Bradley Hand;font-family: fantasy; font-size: 30px;}
