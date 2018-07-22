@@ -2,3 +2,4 @@ body{background-color:#c2c2d6; margin-bottom: 90%;}
 ul {position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;}
+div.header {text-align: center;}
