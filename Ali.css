@@ -5,14 +5,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
-    position:sticky;
-    position: -webkit-sticky; /* To work in Safari */
-    top:0;
-    width:100%;
-    border: 1px solid #e7e7e7;}
+    background-color: #333;
+}
 
-li {float: left;}
+li {
+    float: left;
+}
 
 li a {
     display: block;
@@ -22,5 +20,9 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {background-color: grey;}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
 p{font-size: 50px;}
