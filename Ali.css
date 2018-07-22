@@ -5,7 +5,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position:sticky;
     position: -webkit-sticky; /* To work in Safari */
     top:0;
@@ -22,5 +22,5 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {background-color: #111;}
+li a:hover {background-color: grey;}
 p{font-size: 50px;}
