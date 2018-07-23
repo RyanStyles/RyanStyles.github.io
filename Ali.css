@@ -9,5 +9,7 @@ ul {position: -webkit-sticky; /* Safari */
 div.header {text-align: center;}
 
 
-p.image_top{background-image: url(background_rain.jpg); background-repeat: repeat;padding: 60px;}
-h2{font: Bradley Hand;font-family: fantasy; font-size: 30px; text-shadow: 1px 1px 1px black;}
+p.image_top{background-image: url(background_rain.jpg); background-repeat: repeat;padding: 79px; background-size: 300px 157px; margin-bottom: 0px;}
+h2{font: Bradley Hand;font-family: fantasy; font-size: 30px; text-shadow: 4px 4px 6px grey; text-align: center;}
+
+li{border: darkgrey solid 1px;}
