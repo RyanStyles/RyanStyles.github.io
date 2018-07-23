@@ -8,8 +8,10 @@ ul {position: -webkit-sticky; /* Safari */
 
 div.header {text-align: center;}
 
-
+/*If header is Image */
 p.image_top{background-image: url(background_rain.jpg); background-repeat: repeat;padding: 79px; background-size: 300px 157px; margin-bottom: 0px;}
-h2{font: Bradley Hand;font-family: fantasy; font-size: 30px; text-shadow: 4px 4px 6px grey; text-align: center;}
+
+/* If Header is Text */
+p.text_header{font: Bradley Hand;font-family: fantasy; font-size: 30px; text-shadow: 4px 4px 6px grey; background-color: #003300; color: beige;}
 
 li{border: darkgrey solid 1px;}
