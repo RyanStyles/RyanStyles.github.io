@@ -13,11 +13,16 @@ div.header {text-align: left;
   margin-bottom: 0px;
   background-color: #003328;}
 
-  .centered {
+div.centered {
       position: absolute;
       top: 50%;
       left: 50%;
+      margin: 30px;
+    background-color: #ffffff;
       transform: translate(-50%, -50%);
+       border: 1px solid black;
+      opacity: 0.6;
+      filter: alpha(opacity=60);
   }
 
 p.image_top{background-image: url(background_rain.jpg); background-repeat: repeat;}
