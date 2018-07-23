@@ -19,9 +19,12 @@ div.centered {
       left: 50%;
       margin: 0px;
       padding: 31px;
+      padding-left: 43px;
+      padding-right: 43px;
     background-color: #ffffff;
       transform: translate(-50%, -50%);
        border: 1px solid black;
+       border-radius: 20%;
       opacity: 0.6;
       filter: alpha(opacity=60);
   }
