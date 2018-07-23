@@ -37,6 +37,8 @@ li{border: darkgrey solid 1px;}
     float: left;
     width: 33.33%;
     padding: 5px;
+    position: relative;
+    text-align: center;
 }
 
 .clearfix::after {
