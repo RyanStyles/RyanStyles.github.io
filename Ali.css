@@ -6,12 +6,18 @@ ul {position: -webkit-sticky; /* Safari */
 
 
 
-div.header {text-align: center;padding: 79px; margin-bottom: 0px;}
+div.header {text-align: left;padding: 21px; margin-bottom: 0px; background-color: ##003328;}
 
 
 p.image_top{background-image: url(background_rain.jpg); background-repeat: repeat;}
 
 
-p.text_header{font: Bradley Hand;font-family: fantasy; font-size: 30px; text-shadow: 2px 2px 8px darkslategrey; background-color: ##003328 color: antiquewhite; background-size: 300px 157px;}
+p.text_header{
+  font: Bradley Hand;
+  font-family: fantasy;
+  font-size: 30px;
+  text-shadow: 2px 2px 8px darkslategrey;
+  color: antiquewhite;
+   background-size: 300px 157px;}
 
 li{border: darkgrey solid 1px;}
