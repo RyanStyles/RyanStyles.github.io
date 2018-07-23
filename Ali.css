@@ -1,3 +1,5 @@
+*{ box-sizing: border-box;}
+
 body{background-color:#bfbfbf; margin-bottom: 90%;}
 
 ul {position: -webkit-sticky; /* Safari */
@@ -24,3 +26,15 @@ p.text_header{
   background-size: 300px 157px;}
 
 li{border: darkgrey solid 1px;}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
