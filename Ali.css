@@ -73,7 +73,9 @@ div.centered {
       opacity: 0.6;
       filter: alpha(opacity=60);
       font-size: 100%;
-      color: black;
+  }
+  div.centered a {
+    color: black;
   }
   div.centered:hover{
     background-color: grey;
