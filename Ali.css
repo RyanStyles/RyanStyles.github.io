@@ -74,16 +74,10 @@ div.centered {
       filter: alpha(opacity=60);
       font-size: 100%;
   }
-  div.clearfix a {
-    color: black;
-  }
-  div.centered:hover{
-    background-color: black;
-  }
-  div.container a:hover{
-  font: antiquewhite;
-  }
- a{ text-decoration: none;}
+  div.clearfix a {color: black;}
+  a{ text-decoration: none;}
+div.container :hover{background-color: black;}
+
 
 .img-container {
     float: left;
