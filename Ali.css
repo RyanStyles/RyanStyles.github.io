@@ -77,6 +77,10 @@ div.centered {
   div.centered:hover{
     background-color: grey;
   }
+  div.centered a
+  {
+    text-decoration: none;
+  }
 
 .img-container {
     float: left;
