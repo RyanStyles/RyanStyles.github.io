@@ -18,9 +18,9 @@ div.centered {
       top: 50%;
       left: 50%;
       margin: 0px;
-      padding: 43px;
-      padding-left: 62px;
-      padding-right: 62px;
+      padding: 12%;
+      padding-left: 17%;
+      padding-right: 17%;
     background-color: #ffffff;
       transform: translate(-50%, -50%);
        border-radius: 16%;
