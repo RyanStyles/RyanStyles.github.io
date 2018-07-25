@@ -74,11 +74,13 @@ div.centered {
       filter: alpha(opacity=60);
       font-size: 100%;
   }
-  div.centered a {
+  div.clearfix a {
     color: black;
   }
   div.centered:hover{
-    background-color: grey;
+    background-color: black;
+    font: white;
+    font-weight: bold;
   }
  a{ text-decoration: none;}
 
