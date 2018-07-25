@@ -78,8 +78,7 @@ div.centered {
     color: black;
   }
   div.centered:hover{
-    background-color: black;
-    font: white;
+    background-color: white;
     font-weight: bold;
   }
  a{ text-decoration: none;}
