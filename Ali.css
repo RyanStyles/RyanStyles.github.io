@@ -1,5 +1,5 @@
 *{ box-sizing: border-box;}
-
+body {margin: 0;}
 body{background-color:#bfbfbf; margin-bottom: 15%;}
 
 /*ul {position: -webkit-sticky;
@@ -7,12 +7,45 @@ body{background-color:#bfbfbf; margin-bottom: 15%;}
     top: 0;}*/
 
 
-
+/* Header */
 div.header {text-align: left;
   padding:4px;
   margin-bottom: 0px;
   background-color: #436b6d;}
 
+  p.text_header{
+    font: Bradley Hand;
+    font-family: fantasy;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px darkslategrey;
+    color: antiquewhite;
+    background-size: 300px 157px;}
+
+    li{border: darkgrey solid 1px;}
+
+  /* Nav Bar */
+  ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #999999;
+  }
+
+  ul.topnav li {float: left;}
+
+  ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  ul.topnav li a:hover {background-color: #262626;}
+  ul.topnav li.right {float: right;}
+
+
+/* Pictures & links */
 div.centered {
       position: absolute;
       top: 50%;
@@ -29,19 +62,6 @@ div.centered {
       font-size: 100%;
   }
 
-p.image_top{background-image: url(background_rain.jpg); background-repeat: repeat;}
-
-
-p.text_header{
-  font: Bradley Hand;
-  font-family: fantasy;
-  font-size: 30px;
-  text-shadow: 2px 2px 8px darkslategrey;
-  color: antiquewhite;
-  background-size: 300px 157px;}
-
-li{border: darkgrey solid 1px;}
-
 .img-container {
     float: left;
     width: 33.33%;
@@ -56,14 +76,8 @@ li{border: darkgrey solid 1px;}
     clear: both;
     display: table;
 }
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-}
+
+/* Phone View */
 @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
         float: none;
@@ -73,38 +87,7 @@ li{border: darkgrey solid 1px;}
         margin: 0;
         padding: 14px;
     }
-    .topnav input[type=text] {
-        border: 1px solid #ccc;
-    }
 }
-body {margin: 0;}
-
-
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #999999;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-body {margin-bottom: 90%;}
-ul.topnav li a:hover {background-color: #262626;}
-
-
-ul.topnav li.right {float: right;}
-
 @media screen and (max-width: 600px){
     ul.topnav li.right,
     ul.topnav li {float: none;}
-
- div.header {text-align: left; }
