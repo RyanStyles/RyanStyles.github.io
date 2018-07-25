@@ -26,6 +26,7 @@ div.centered {
        border-radius: 16%;
       opacity: 0.6;
       filter: alpha(opacity=60);
+      font-size: 100%;
   }
 
 p.image_top{background-image: url(background_rain.jpg); background-repeat: repeat;}
