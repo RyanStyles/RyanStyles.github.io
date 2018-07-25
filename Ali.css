@@ -1,6 +1,6 @@
 *{ box-sizing: border-box;}
 
-body{background-color:#bfbfbf; margin-bottom: 90%;}
+body{background-color:#bfbfbf; margin-bottom: 15%;}
 
 /*ul {position: -webkit-sticky;
     position: sticky;
@@ -11,7 +11,7 @@ body{background-color:#bfbfbf; margin-bottom: 90%;}
 div.header {text-align: left;
   padding:4px;
   margin-bottom: 0px;
-  background-color: #003328;}
+  background-color: #436b6d;}
 
 div.centered {
       position: absolute;
