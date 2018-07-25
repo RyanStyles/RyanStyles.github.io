@@ -76,8 +76,9 @@ div.centered {
   }
   div.clearfix a {color: black;}
   a{ text-decoration: none;}
-div.centered:hover{background-color: black;}
-a:hover{color: white;}
+div.centered:hover{
+  background-color: black;
+  color:white;}
 
 .img-container {
     float: left;
