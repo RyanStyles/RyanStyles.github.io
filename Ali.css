@@ -77,7 +77,7 @@ div.centered {
   div.clearfix a {
     color: black;
   }
-  div.container :hover{
+  div.container:hover{
     background-color: black;
   }
   div.container a:hover{
@@ -126,8 +126,4 @@ div.centered {
         width: 200px;
         height: 200px;
         margin: 0 auto;
-    }
-
-    .zoom:hover {
-        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
