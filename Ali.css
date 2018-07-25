@@ -22,14 +22,14 @@ div.header {text-align: left;
     background-size: 300px 157px;}
 
     li{border: darkgrey solid 1px;}
-    
+
     /* Footer */
         .footer {
             position: fixed;
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: red;
+            background-color:  #436b6d;
             color: white;
             text-align: center;
         }
