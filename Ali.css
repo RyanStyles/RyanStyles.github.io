@@ -74,6 +74,9 @@ div.centered {
       filter: alpha(opacity=60);
       font-size: 100%;
   }
+  div.centered:hover{
+    background-color: grey;
+  }
 
 .img-container {
     float: left;
