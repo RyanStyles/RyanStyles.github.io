@@ -2,9 +2,9 @@
 
 body{background-color:#bfbfbf; margin-bottom: 90%;}
 
-ul {position: -webkit-sticky; /* Safari */
+/*ul {position: -webkit-sticky;
     position: sticky;
-    top: 0;}
+    top: 0;}*/
 
 
 
@@ -76,3 +76,34 @@ li{border: darkgrey solid 1px;}
         border: 1px solid #ccc;
     }
 }
+body {margin: 0;}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999999;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+body {margin-bottom: 90%;}
+ul.topnav li a:hover {background-color: #262626;}
+
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+
+ div.header {text-align: left; }
