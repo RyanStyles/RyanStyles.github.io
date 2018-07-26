@@ -6,16 +6,6 @@
 </head>
 <body>
 
-  <script>
-  var slider = document.getElementById("myRange");
-  var output = document.getElementById("demo");
-  output.innerHTML = slider.value;
-  slider.oninput = function() {
-    output.innerHTML = this.value;
-  }
-  </script>
-
-
   <div class="header" >
     <p class="text_header"> Ryan&Ali</p>
   </div>
@@ -55,5 +45,14 @@
   <p>Sponsored and founded by Ryan A Styles and his lady</p>
 </div>
 
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
 </body>
 </html>
