@@ -107,6 +107,19 @@ div.centered:hover{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .parallax2 {
+            /* The image used */
+            background-image: url('/Images/image5.jpg');
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
 /* Phone View */
 @media screen and (max-width: 600px) {
