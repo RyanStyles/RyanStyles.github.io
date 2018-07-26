@@ -93,19 +93,16 @@
           padding: 2%;
           padding-left: 6%;
           padding-right: 6%;
-          background-color: #black;
+          background-color: black;
           transform: translate(-50%, -50%);
           opacity: 0.8;
           filter: alpha(opacity=60);
           font-size: 173%;
           font-family: Courier New;
+          color:white;
           }
           div.clearfix a {color: black;}
           a{ text-decoration: none;}
-        div.centered:hover{
-          background-color: black;
-          color:white;}
-
         .img-container {
             float: left;
             width: 33.33%;
