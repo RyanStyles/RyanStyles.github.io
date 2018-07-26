@@ -82,25 +82,20 @@ div.header {text-align: left;
 }
 
 /*GO Button */
-.button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
+.btngo {
+  background-color: #ddd;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
 }
 
-.button:hover {background-color: #3e8e41}
-
-.button:active {
+.btngo:hover {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  color: white;
 }
 
 /*Slider */
