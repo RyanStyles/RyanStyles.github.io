@@ -1,9 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/CSS/ptest.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/CSS/Ali.css">
+
+<style>
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('Images/image1.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('Images/image5.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
 </head>
 <body>
   <div class="header" >
@@ -14,24 +47,18 @@
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="finance.html">Finance</a></li>
   <li><a href="about.html">About us</a></li>
-  <li><a href="#"> Trips </a></li>
+  <li><a href="trip.html"> Trips </a></li>
 </ul>
 
 <div class="parallax"></div>
 
-<p style=background:black> Learn more about our adventures here </p>
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
 
 <div class="parallax2"></div>
-<div class="footer">
-  <p>Sponsored and founded by Ryan A Styles and his lady</p>
-</div>
-
-
-
-
-<div class="footer">
-  <p>Sponsored and founded by Ryan A Styles and his lady</p>
-</div>
 
 </body>
 </html>
