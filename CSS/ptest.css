@@ -111,6 +111,14 @@
             text-align: center;
             font-weight: bold;
         }
+        .rocky{
+          padding-top:10px;
+          height:220px;
+          background-color:white;
+          font-size:25px;
+          font-family:Courier New;
+          text-align: center;
+        }
 
         .clearfix::after {
             content: "";
