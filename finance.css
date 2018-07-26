@@ -91,6 +91,7 @@ div.header {text-align: left;
   font-size: 16px;
   margin: 4px 2px;
   transition: 0.3s;
+  margin-left: 40%;
 }
 
 .btngo:hover {
@@ -136,7 +137,7 @@ div.header {text-align: left;
     background: url('/Images/Money.PNG');
     cursor: pointer;
 }
-.value p{text-align: center;}
+.value p {text-align: center;}
 
 /* Phone View */
 @media screen and (max-width: 600px) {
