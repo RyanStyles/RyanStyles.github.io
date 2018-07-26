@@ -58,7 +58,7 @@ div.header {text-align: left;
   ul.topnav li.right {float: right;}
 
 
-/* Pictures & links */
+/* Pictures & buttons */
 .img-container {
     float: left;
     width: 18%;
@@ -73,6 +73,14 @@ div.header {text-align: left;
     clear: both;
     display: table;
 }
+.btn {
+    border: none; /* Remove borders */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+.btn:hover {
+    border: black 2px solid;
+}
+
 
 /* Phone View */
 @media screen and (max-width: 600px) {
