@@ -19,6 +19,7 @@ ul.topnav li a {
 ul.topnav li a:hover {background-color: #262626;}
 ul.topnav li.right {float: right;}
 
+/*About us styles */
 html {
   box-sizing: border-box;
 }
@@ -29,7 +30,7 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 50%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
