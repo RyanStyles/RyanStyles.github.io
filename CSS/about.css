@@ -23,7 +23,7 @@ ul.topnav li.right {float: right;}
 html {
   box-sizing: border-box;
 }
-h2 {text-align: center; font-size: 230%}
+h1 {text-align: center; font-size: 230%}
 *, *:before, *:after {
   box-sizing: inherit;
 }
