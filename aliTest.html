@@ -1,4 +1,14 @@
-<head>
-  <link rel="import" href="skeleton.html">
-  <link rel="stylesheet" href="/CSS/skeleton.css">
-</head>
+<html>
+  <head>
+    <script src="jquery.js"></script>
+    <script>
+    $(function(){
+      $("#includedContent").load("skeleton.html");
+    });
+    </script>
+  </head>
+
+  <body>
+     <div id="includedContent"></div>
+  </body>
+</html>
