@@ -38,8 +38,8 @@
 </div>
 
 <div class="slidecontainer">
-  <input type="range" min="100" max="1000000" value="50000" class="slider" id="myRange">
-  <p class="value">Value:$ <span id="demo"></span></p>
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
 </div>
 
 <button class="btngo">Calculate my Tax</button>
@@ -55,6 +55,7 @@
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
+
 slider.oninput = function() {
   output.innerHTML = this.value;
 }
