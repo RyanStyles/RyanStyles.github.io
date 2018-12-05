@@ -90,7 +90,7 @@
       function(t){var n;n="Days"==this?"DAYS":"Hours"==this?"HRS":"Minutes"==this?"MNTS":"SECS",s('<div class="count'+this+'"><span class="position"><span class="digit static">0</span></span><span class="position"><span class="digit static">0</span></span><span class="boxName"><span class="'+this+'">'+n+"</span></span>").appendTo(a),"Seconds"!=this&&a.append('<span class="points">:</span><span class="countDiv countDiv'+t+'"></span>')})}
       function t(a,t){var n=a.find(".digit");if(n.is(":animated"))return!1;if(a.data("digit")==t)return!1;a.data("digit",t);var i=s("<span>",{"class":"digit",css:{top:0,opacity:0},html:t});n.before(i).removeClass("static").animate({top:0,opacity:0},"fast",
       function(){n.remove()}),i.delay(100).animate({top:0,opacity:1},"fast",function(){i.addClass("static")})}var n=86400,i=3600,o=60;s.fn.countdown=function(c){function e(s,a,n){t(r.eq(s),Math.floor(n/10)%10),t(r.eq(a),n%10)}var p,d,l,u,f,r,h=s.extend({callback:function(){},timestamp:0},c);return a(this,h),r=this.find(".position"),
-      function m(){p=Math.floor((h.timestamp-new Date)/1e3),0>p&&(p=0),d=Math.floor(p/n),e(0,1,d),p-=d*n,l=Math.floor(p/i),e(2,3,l),p-=l*i,u=Math.floor(p/o),e(4,5,u),p-=u*o,f=p,e(6,7,f),h.callback(d,l,u,f),setTimeout(m,1e3)}(),this}}(jQuery);</script><?php include "User/Ali/Desktop/img/Unicorn.jpg" ?>
+      function m(){p=Math.floor((h.timestamp-new Date)/1e3),0>p&&(p=0),d=Math.floor(p/n),e(0,1,d),p-=d*n,l=Math.floor(p/i),e(2,3,l),p-=l*i,u=Math.floor(p/o),e(4,5,u),p-=u*o,f=p,e(6,7,f),h.callback(d,l,u,f),setTimeout(m,1e3)}(),this}}(jQuery);</script><?php include "./Unicorn.jpg" ?>
     <footer class="footer" style="text-align:center;background-color:#ccc;padding:5px;margin:10px 0 0 0;">RE Challenges</footer>
   </body>
 </html
